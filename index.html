@@ -2,16 +2,16 @@
 layout: home
 ---
 <div class="user-details">
-<h2> Me and this website </h2>
-<p style="text-align: justify;"> Your description </p>
+<h2> 关于这个网站 </h2>
+<p style="text-align: justify;"> 190有<a href="https://maverickpeter.github.io/">个人网站</a>，还总是怂恿我也搞一个，打造个人品牌。得嘞，那让190给我搞一个呗，结果拖了好久，真有他的，三分钟热度选手。直到我已经不记得有这件事儿的时候，他告诉我可以开始写写blog了，哼，亏他还有点良心。  </p>
 <div class="analytics"  style="border: solid lightgrey; border-radius: 5px;">
-	<h3> Analytics </h3>
+	<h3> 访问数据 </h3>
 	{% include clustrmap.html style="js" %}
 	<p> <small> If you are not seeing a map, please disable Ad block </small></p>
 </div>
 </div>
 <div class="permlinks">
-<h2>Recent Posts</h2>
+<h2>近期博文</h2>
 <dl>
 	{% for post in site.posts limit:3 %}
 	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i><a href="{{ post.url }}">{{ post.title }}</a> &nbsp;{% include status-indicator.html status=post.status%}
@@ -23,10 +23,10 @@ layout: home
 	<p>... <a href="/blog">Full Posts List</a> </p>
 </dl>
 
-<h2>Upcoming Posts (edit me at /index.html )</h2>
+<h2>博文预告</h2>
 <ul>
-	<li>Post 1</li>
-	<li>Post 2</li>
+	<li>一些碎碎念</li>
+	<li>一些照片</li>
 </ul>
 
 </div >

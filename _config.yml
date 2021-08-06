@@ -1,6 +1,6 @@
 # Site settings
-title: Chaya Jiang Website
-description: Chaya's blog for learning
+title: Chaya Jiang
+description: A lovely girl
 baseurl: "" 
 #change the baseurl to "" if you are using it as your user GitHub Pages
 url: "https://ChayaJiang.github.io"  
